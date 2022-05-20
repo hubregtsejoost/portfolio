@@ -31,7 +31,6 @@ h1 {
 .nav {
     width: 90%;
     height: 90%;
-    padding:5%;
     justify-content: center;
 }
 
@@ -39,6 +38,11 @@ h3 {
     font-size: 5rem;
     font-weight: 400;
     margin-bottom: -5%;
+    margin-left: 5%;
+}
+
+#title-nav h3 {
+    padding: 5%;
 }
 
 footer {
@@ -46,6 +50,7 @@ footer {
     font-weight: 600;
     margin-top: 20%;
     align-items: flex-end;
+    margin-left:5%;
 }
 
 a, a:focus, a:active {
@@ -71,4 +76,32 @@ img {
 
 #title-art {
     padding: 5%;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .gallery {
+        width: 90%;
+    }
+
+    .section-one  {
+        height:50vh;
+        display: block;
+    }
+
+    .section-one h1 {
+        padding-top: 30%;
+    }
+
+    .section-two {
+        height: 50vh;
+    }
 }
